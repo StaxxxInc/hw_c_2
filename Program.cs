@@ -2,20 +2,20 @@
 //и выдает какое число больше
 
 //Пользователь вводит 2 числа a и b
-Console.Write("Введите a ");
+Console.Write("Введите a = ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите b ");
+Console.Write("Введите b = ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 //сравниваем 2 часла
     if (a > b)
     {
-    Console.WriteLine($"Больше a");
+    Console.WriteLine($"max a = ");
     }
 
     else
     {
-    Console.WriteLine($"Больше b ");
+    Console.WriteLine($"max b = ");
     }
 
